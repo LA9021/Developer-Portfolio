@@ -86,3 +86,13 @@ footer {
     color: white;
 
 }
+
+/* Media Queries */
+
+@media (max-width: 600px) {
+    nav ul{
+        flex-direction: column;
+        gap: 0px;
+        align-items: center;
+    }
+}
