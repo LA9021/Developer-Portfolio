@@ -34,7 +34,8 @@ nav ul {
 }
 
 nav ul li {
-    margin: 0 15px;
+   /* margin: 0 15px;*/
+   /* Removed margin to make the navigation items evenly spaced, and the code might not be necessary */
     padding: 10px 0;
 }
 
