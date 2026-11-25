@@ -255,6 +255,7 @@ section p {
     font-weight: 600;
     font-size: 15px;
     color: #333;
+    margin-left: 5px;
 }
 
 /* FORM INPUTS */
