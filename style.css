@@ -144,6 +144,57 @@ header img {
     min-width: 0;
 }
 
+/*SYSTEM ONLINE DESIGN */
+
+.system-status {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+
+.status-light {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: var(--primary-accent-color);
+    box-shadow: 0 0 10px var(--primary-accent-color);
+    animation-name: statusPulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.status-text {
+    color: var(--primary-accent-color);
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+/* System Status Animation */
+
+@keyframes statusPulse{
+
+    0%{
+        transform:scale(1);
+        box-shadow: 0 0 10px var(--primary-accent-color);
+    }
+
+    50%{
+        transform: scale(1.3);
+       box-shadow: 0 0 25px var(--primary-accent-color);
+    }
+    100%{
+        transform: scale(1);
+        box-shadow: 0 0 10px var(--primary-accent-color);
+    }
+}
+
+
 
 /*Main Content Styles */
 
